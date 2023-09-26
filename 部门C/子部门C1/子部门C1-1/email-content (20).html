@@ -1,0 +1,192 @@
+<style type="text/css">
+        table.dataframe {
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;
+            color:#333333;
+            border-width: 1px;
+            border-color: #666666;
+            border-collapse: collapse;
+        }
+        table.dataframe th {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #dedede;
+        }
+        table.dataframe td {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #ffffff;
+        }
+        </style><body><div><p>device_type:npu</p><p>compile_option:O3</p><p>cluster_count:4</p><p>npc_count:8</p></div><div><p>Total Summary<div><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Failed</th>
+      <th>Passed</th>
+      <th>Skip(Known issue)</th>
+      <th>time_spend</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td>472</td>
+      <td>6</td>
+      <td>553.03</td>
+    </tr>
+  </tbody>
+</table></div></div><div><p>Failed Cases(first 20 rows)<div><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>case_owner</th>
+      <th>known_issues</th>
+      <th>round</th>
+      <th>cluster</th>
+      <th>case_category</th>
+      <th>case_name</th>
+      <th>test_status</th>
+      <th>time_spend</th>
+      <th>log_path</th>
+      <th>log_size</th>
+      <th>case_path</th>
+      <th>source</th>
+      <th>stc_set_device</th>
+      <th>cmd</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Feng.Yan</td>
+      <td><a href="http://pm.streamcomputing.com/browse/ABP-276">ABP-276</a></td>
+      <td>0</td>
+      <td>no parallel case</td>
+      <td>tools</td>
+      <td>profiler</td>
+      <td>Failed</td>
+      <td>14.25</td>
+      <td><a href="http://172.16.11.98:8888/sdk_regression_log/pipeline-57501-job-487050-O3/tools/profiler-no_parallel-r0.log">pipeline-57501-job-487050-O3/tools/profiler-no_parallel-r0.log</a></td>
+      <td>8333</td>
+      <td>npu-sdk/sdk-tests/tools/profiler/</td>
+      <td>basic_test.sh</td>
+      <td>NaN</td>
+      <td>export SHOW_VERBOSE=1&&cd $FORK_PROJECT_DIR/npu-sdk/sdk-tests/tools/profiler/&&./basic_test.sh</td>
+    </tr>
+    <tr>
+      <td>Xiaoping.Jiang</td>
+      <td><a href="http://pm.streamcomputing.com/browse/JZNPU-1845">JZNPU-1845</a></td>
+      <td>0</td>
+      <td>no parallel case</td>
+      <td>gdb.advance</td>
+      <td>stcPldInIf</td>
+      <td>Failed</td>
+      <td>2.00</td>
+      <td><a href="http://172.16.11.98:8888/sdk_regression_log/pipeline-57501-job-487050-O3/gdb.advance/stcPldInIf-no_parallel-r0.log">pipeline-57501-job-487050-O3/gdb.advance/stcPldInIf-no_parallel-r0.log</a></td>
+      <td>5448</td>
+      <td>npu-sdk/sdk-tests/tools/gdb/gdb.advance</td>
+      <td>stcPldInIf.sh</td>
+      <td>NaN</td>
+      <td>export SHOW_VERBOSE=1&&cd $FORK_PROJECT_DIR/npu-sdk/sdk-tests/tools/gdb/gdb.advance&&./stcPldInIf.sh</td>
+    </tr>
+    <tr>
+      <td>Xiaoping.Jiang</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>no parallel case</td>
+      <td>gdb.advance</td>
+      <td>stcMultiKernel</td>
+      <td>Failed</td>
+      <td>0.58</td>
+      <td><a href="http://172.16.11.98:8888/sdk_regression_log/pipeline-57501-job-487050-O3/gdb.advance/stcMultiKernel-no_parallel-r0.log">pipeline-57501-job-487050-O3/gdb.advance/stcMultiKernel-no_parallel-r0.log</a></td>
+      <td>7726</td>
+      <td>npu-sdk/sdk-tests/tools/gdb/gdb.advance</td>
+      <td>stcMultiKernel.sh</td>
+      <td>NaN</td>
+      <td>export SHOW_VERBOSE=1&&cd $FORK_PROJECT_DIR/npu-sdk/sdk-tests/tools/gdb/gdb.advance&&./stcMultiKernel.sh</td>
+    </tr>
+  </tbody>
+</table></div></div><div><p>Runner #688: 
+ssh gitlab-runner@172.16.12.135 #password=123.com</p></div><div><p> fork dir: /mnt/FORK_ENV/pipeline-57501-job-487050-O3
+run "source local_var.sh" to setup env first</p></div><div><p>CI Link(pipeline): </p><a href="http://code.streamcomputing.com/host-sdk/host-sdk-regression/pipelines/57501">http://code.streamcomputing.com/host-sdk/host-sdk-regression/pipelines/57501</a></div><div><p>CI Link(job): </p><a href="http://code.streamcomputing.com/host-sdk/host-sdk-regression/-/jobs/487050">http://code.streamcomputing.com/host-sdk/host-sdk-regression/-/jobs/487050</a></div><div><p>Log Path: </p><a href="http://172.16.11.98:8888/sdk_regression_log/pipeline-57501-job-487050-O3/">http://172.16.11.98:8888/sdk_regression_log/pipeline-57501-job-487050-O3/</a></div><div><p>By cluster<div><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>cluster</th>
+      <th>Failed</th>
+      <th>Passed</th>
+      <th>Skip(Known issue)</th>
+      <th>time_spend</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cluster-0</td>
+      <td>0</td>
+      <td>107</td>
+      <td>1</td>
+      <td>176.98</td>
+    </tr>
+    <tr>
+      <td>cluster-1</td>
+      <td>0</td>
+      <td>107</td>
+      <td>1</td>
+      <td>200.57</td>
+    </tr>
+    <tr>
+      <td>cluster-2</td>
+      <td>0</td>
+      <td>107</td>
+      <td>1</td>
+      <td>208.59</td>
+    </tr>
+    <tr>
+      <td>cluster-3</td>
+      <td>0</td>
+      <td>107</td>
+      <td>1</td>
+      <td>211.71</td>
+    </tr>
+    <tr>
+      <td>no parallel case</td>
+      <td>3</td>
+      <td>44</td>
+      <td>2</td>
+      <td>341.32</td>
+    </tr>
+  </tbody>
+</table></div></div><div><p>Skipped hang cases(CI): <div><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>skipped_issues</th>
+      <th>case_category</th>
+      <th>case_name</th>
+      <th>test_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://pm.streamcomputing.com/browse/JZNPU-1875">JZNPU-1875</a></td>
+      <td>cpp</td>
+      <td>vlevse</td>
+      <td>Skip(Known issue)</td>
+    </tr>
+    <tr>
+      <td><a href="http://pm.streamcomputing.com/browse/JZNPU-1825">JZNPU-1825</a></td>
+      <td>gdb.advance</td>
+      <td>stcLibnpurtPmp</td>
+      <td>Skip(Known issue)</td>
+    </tr>
+    <tr>
+      <td><a href="http://pm.streamcomputing.com/browse/JZNPU-1883">JZNPU-1883</a></td>
+      <td>npu_test</td>
+      <td>npu_test_random</td>
+      <td>Skip(Known issue)</td>
+    </tr>
+  </tbody>
+</table></div></div><div><p>defect.conf: <div>CARD_NUM=1
+CLSUTER_NUM_PER_CARD=4
+NCORE_LIST=7,7,8,8
+reserve_32 is 00000000000000000010000001000000
+</div></div></body>
