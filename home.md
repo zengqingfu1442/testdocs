@@ -25,7 +25,7 @@ Wiki.js is quick and easy to install. You should be up and running in no time.
 - [*部门B/子部门B2*](/部门B/子部门B2)
 {.links-list}
 
-# 
+# 部门C
 
 - [:globe_with_meridians: *部门C/子部门C1/子部门C1-1*](/部门C/子部门C1/子部门C1-1)
 {.links-list}
