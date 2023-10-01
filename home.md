@@ -1,6 +1,6 @@
 ---
-title: 小福科技有限公司
-description: 农业知识文档仓库
+title: 某某科技有限公司
+description: 知识文档仓库
 published: true
 date: 2023-10-01T21:20:29.807Z
 tags: 
